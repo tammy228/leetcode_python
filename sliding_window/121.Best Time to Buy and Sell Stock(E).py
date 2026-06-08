@@ -9,6 +9,7 @@ O(N^2)
 Space:
 O(1)
 """
+from typing import List
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         ans = 0
