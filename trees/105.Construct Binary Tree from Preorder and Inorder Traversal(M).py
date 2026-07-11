@@ -39,7 +39,7 @@ Time:
 O(N)
 
 Space:
-O(H), worst O(N), avg O(logN)
+stack O(H), worst O(N), avg O(logN), O(N) for in_index
 """
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
