@@ -8,7 +8,7 @@ O(N * 2^N), there are 2^N nodes for all subsets, and for path[:] is O(N)
 
 Space:
 no output space, just stack and path[:]: O(log 2^N) = O(2N) = O(N)
-paht[:] + ans : O(N + 2^N * N) = O(2^N * N)
+path[:] + ans : O(N + 2^N * N) = O(2^N * N)
 """
 from typing import List
 class Solution:
