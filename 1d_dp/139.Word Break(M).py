@@ -31,7 +31,7 @@ Time:
 O(N* K^2), K for max_len, normally the inner loop don't need to traverse from zero
 
 Space
-O(N + MK)
+O(N + MK), N for len(s), MK for wordset M word, K length
 """
 class Solution2:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
